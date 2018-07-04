@@ -55,4 +55,4 @@ with open(name+'/index.html', 'a') as oo:
 	oo.write(ar)
 with open(name+'/'+login, 'a') as oo:
 	oo.write(az)
-print bcolor.BOLD+"Saved in : "+name
+print "Saved in : "+name
